@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'My Second Brain',
   tagline: 'All content that is important to retain on personal and professional projects',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicons/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://breion.de',
