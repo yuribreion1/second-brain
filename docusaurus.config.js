@@ -19,7 +19,6 @@ const config = {
   baseUrl: '/',
   organizationName: 'yuribreion1', // Usually your GitHub org/user name.
   projectName: 'second-brain', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
