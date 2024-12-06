@@ -16,7 +16,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://breion.de',
-  baseUrl: '/',
+  baseUrl: '/second-brain/',
   organizationName: 'yuribreion1', // Usually your GitHub org/user name.
   projectName: 'second-brain', // Usually your repo name.
 
