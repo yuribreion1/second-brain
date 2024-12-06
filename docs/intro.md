@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The topics will be organized under three main topics:
 
-## Getting Started
+- Technology
+- Productivity
+- Philosophy and thinking
 
-Get started by **creating a new site**.
+## Technology
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Information technology and information security subjects will be presented under this category, and specific products would be mentioned as GitHub, Azure, and other technologies related to the Software Development Lifecycle (SDLC).
 
-### What you'll need
+## Productivity
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+The word productivity was for a long time associated with a false capacity to perform many things, and as the time passes, more and more I am learning and realizing that it is more related to acting smartly. I will drop contents in that regard here.
 
-## Generate a new site
+## Philosophy and thinking
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Self-development requires a lot of thinking, and philosophy is a great area of interest that improves that process. The idea is to provide insights and collections of thoughts from several philosophers and experts on this topic.

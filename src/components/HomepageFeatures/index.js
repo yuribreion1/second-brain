@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Tecnology',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/technology.svg').default,
     description: (
       <>
         Information technology topics are part of my knowledge path, that will be documented here on the site
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Productivity',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/productivity.svg').default,
     description: (
       <>
         Texts and information about productivity is consumed frequently by me, that will also added.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Philosophy and thinking',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/philosophy.svg').default,
     description: (
       <>
         I also like to think and reflect, so here I will share reading abstracts and texts
