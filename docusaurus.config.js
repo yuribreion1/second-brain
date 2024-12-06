@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://yuribreion1.github.io',
+  url: 'https://breion.de',
   baseUrl: '/',
   organizationName: 'yuribreion1', // Usually your GitHub org/user name.
   projectName: 'second-brain', // Usually your repo name.
