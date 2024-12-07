@@ -15,3 +15,11 @@ SonarSource has a [SaaS (Software as a Service)](https://en.wikipedia.org/wiki/S
 The image below presents an example of issues after a scan on my project:
 
 ![My issues](img/sonarcloud-1.png)
+
+# How do I scan my project?
+
+First, log into https://www.sonarsource.com/products/sonarcloud/signup/, and select what DVCS (distributed version control system) your code is located in; in my case, it is on GitHub.
+
+Second, create your organization into SonarCloud; that can be your GitHub user. Finally, select the repository you want to scan, and voilà! 
+
+![My projects](img/sonarcloud-2.png)
