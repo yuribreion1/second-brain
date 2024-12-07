@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Intro
+# About
 
 The topics will be organized under three main topics:
 
