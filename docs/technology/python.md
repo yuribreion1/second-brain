@@ -28,7 +28,7 @@ BASE_URL = os.getenv('POKEMON_BASE_URL')
 def fetch_data(base_url):
     try:
         response = requests.get(f"{base_url}/pokemon")
-        response.raise_for_status()  # Raise HTTPError for bad responses
+        response.raise_for_status()
         data = response.json()
 
         total = data.get('count')
@@ -53,7 +53,7 @@ def fetch_data(base_url):
                 offset = limit
             else:
                 offset = offset + limit
-            results.extend(paginated_data.get('results', []))  # Adjust 'data' key based on API's response structure
+            results.extend(paginated_data.get('results', [])) 
 
         logging.info(f"Fetched a total of {len(results)} records.")
         return results
@@ -68,10 +68,8 @@ def save_to_csv(results, output_file='results.csv'):
         return
 
     try:
-        # Get the headers dynamically from the first result item
         headers = results[0].keys()
 
-        # Write results to CSV
         with open(output_file, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.DictWriter(file, fieldnames=headers)
             writer.writeheader()
@@ -82,9 +80,7 @@ def save_to_csv(results, output_file='results.csv'):
         logging.error(f"An error occurred while saving to CSV: {e}")
 
 if __name__ == "__main__":
-    # Fetch data from API
     results = fetch_data(BASE_URL)
     
-    # Save results to a CSV file
     save_to_csv(results)
 ```
