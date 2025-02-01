@@ -85,5 +85,5 @@ PID: 777
 
 ## Additional commands
 
-- Create a database: `CREATE DATABASE personal_expenses``
-- Create a role: CREATE ROLE app_user WITH LOGIN PASSWORD 'strong_password'
+- Create a database: `CREATE DATABASE personal_expenses`
+- Create a role: `CREATE ROLE app_user WITH LOGIN PASSWORD 'strong_password'`
