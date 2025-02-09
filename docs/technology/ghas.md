@@ -37,9 +37,30 @@ Refers to understanding how to use the security features of GitHub to secure you
 
 ### Secret Scanning
 
-- Follow an access token to simulate the Secret Scanning functionality:
+- Follow an output message as example when a commit attempt occur with a secret leaked:
 
-ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+```bash
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote: 
+remote: - GITHUB PUSH PROTECTION
+remote:   —————————————————————————————————————————
+remote:     Resolve the following violations before pushing again
+remote: 
+remote:     - Push cannot contain secrets
+remote: 
+remote:     
+remote:      (?) Learn how to resolve a blocked push
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+remote:     
+remote:     
+remote:       —— GitHub Personal Access Token ——————————————————————
+remote:     
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:     
+remote: 
+remote: 
+```
 
 - Secrets stored in **repositories** like passwords, access tokens, etc.
 - Scan secrets and raise alerts
