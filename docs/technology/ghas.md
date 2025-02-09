@@ -35,6 +35,19 @@ Refers to understanding how to use the security features of GitHub to secure you
 - Scan dependencies and raise alerts
 - Take action from GitHub on vulnerabilities
 
+Dependabot uses dependency graph to scan and alert on any insecure dependencies on the default branch of any GitHub repo.
+
+Dependabot scan:
+
+- GitHub Action workflow files
+- Scan packages supported by Dependency graph
+- Can alert based on GitHub Advisory Database entries
+
+Dependabot cannot:
+
+- Scan archived repos
+- Cannot generate alerts for malware
+
 ### Secret Scanning
 
 - Follow an output message as example when a commit attempt occur with a secret leaked:
@@ -128,3 +141,15 @@ Potential risk to an organization that can be exploited by a malicious attacker 
 - [Reference](https://github.com/advisories)
 
 A database maintained by GitHub with a list of security vulnerabilities of CVE and GitHub own research.
+
+## Open Source in GitHub
+
+Unmaintained open source libraries and packages with security vulnerabilities are present everywhere on the internet.
+
+In GitHub, the **Dependency graph** is a good place to see what open-source dependencies are in use in your project.
+
+To access the Dependency graph of your repository, access: <https://github.com/repo_name/second-brain/network/dependencies>
+
+## References
+
+- [The state of the Octoverse - 2024](https://github.blog/news-insights/octoverse/octoverse-2024/)
