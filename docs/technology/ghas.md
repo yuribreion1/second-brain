@@ -40,7 +40,34 @@ Refers to understanding how to use the security features of GitHub to secure you
 - Follow an access token to simulate the Secret Scanning functionality:
 
 ```bash
-rCVsSBDPhCckFHecuIEVqhEecazhGqw5aL5YIQZ6GesaL0bkxDZuAsOAR7Y8bWDD
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAiOJwJV1mI15MaTJdiz3qtfQ5XVaX5jYuBunaLSxQ64/WHlLz
+9r09TqEOSGnRgmUHdWD3qQZddbKFYUx3/dmDl94L/xAnuchhtoOlzGFHo9NZLvAG
+WhSToSsOl4HZqfU2tO1JA2GNefygHNOjy9G5uspw0FzWzm2rmFxPZKtUHXWAnp9i
+9pSFy9n6duxkkwDk6RMEcB4j6Q2cDdkGD6iiEBbgnwdCznW2Exu1F2v7hO4/5ups
+0cSsNUsQFbux8XOH2xLin+SMMFKRMQjCMjWMuakm25UoypQxpOU/5u0NzwVlP6jE
+S1p2+MN4gP4v48RyrLdLs3GQeCwQfgGUqtvaPwIDAQABAoIBAA6TvVP1U3xeZ+5n
+UIKUuECNPr37tpcWW6YdKZYC8KZ3/a+NWkat62/1WHiKBaeIYRgfw0VgP1FajrgI
+X9o225Evh9aEnr5lolDrScZEm8+h9mQ4Z8IYYTUEyVEwIQESSIj8S04NXvbH2jiH
+qfCkJ85xDZIwONM95vawPzzeE/SZAr+v5VmuUOy8iTLPjUuOEeFrQQ+MUGIVU4lW
+FmVWxSJ890+kUND3SHWOIi9uar7tvM5OF8t3CnRVfFddD57nnF5Fa98BD/vbwo5C
+ozyQbxaxq639Ft/uV/D15WtLq+W0/6AAa5JRpEwCVvRCubFWXMDZ6TiXUks4OvhC
+M1yNgvkCgYEAv56vrgFYqiVZ6ADG6gUUA2iMny2teR5duZOqGc3LHwvPIe9uXxUR
+0o7u4QSx4gQRKAQZ1xVE6/RETauPHUZyL1oBGFDODagTT7B+pdHxjilbSucbg2Fr
+iyoueTxybL4jhubj4obGJxZrNCaeo/JWpbzRYeG6M9oH1A0lEvRlrqcCgYEAtt/w
+gA/L9DASgnJm43muvXz8idM6qFHPiR+dRihzpw1TDlPoz96hLCsM0mbcxL18LLA9
++AnHYpH7kL+mTk268ITeFwEy9XdBSea2WpdV0+lkTNVr2ma5R807oad/msLnNjPw
+qeNxwTJ8pK2/bOJxX6IhE5YKnmWStHqAibS3wqkCgYEAlbWiZl2w60ZBZwzsXDxZ
+dYxCib8DUKTT70CaXoy1jO0KCOZrIihxA0QfCHlFjWNGEDCcC7oXXg47Kz/FkcbP
+QYWdY2UGiA7v/4vSdzV+92YCaJQFn/EGN/Vd1+TNNX6cfTJ5iytnN3TBjz45JbgZ
+0GWkZUgZ1ZccFKWseJGvu/MCgYAAqrpmzSfyQQagQSiM5dG0UTNekU2idYHrPxlE
+uzsIveyyna24rFgsIBAQ6F0fvo0oYJApSmfWvS+MrJY/rNrkq6dfsBpueLvdOCEs
+HWcruasq+JBHIJ7GW0I/aav2dYWAVhonlHPCv5tiwltzWzQMpDu4pZBuWXJ6hAPZ
+/LW62QKBgAHW50chArKBboKq/Fj3qiD6GT01BVciXUasWi+89A7oBoi9rAxA7jBr
+SmtiwKRrJ9rAe7ktyNKiOKFieIw7jM7/jgSb/gG3ugYGEKWcikSiOn1if8KqB9g6
+2l5ChvXuCalu5LVV9d27sS2zMq3POLTez6GMGAsVOolhhAWt9yxN
+-----END RSA PRIVATE KEY-----
+
 ```
 
 - Secrets stored in **repositories** like passwords, access tokens, etc.
