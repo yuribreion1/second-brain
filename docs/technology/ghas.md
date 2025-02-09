@@ -1,6 +1,8 @@
 # GitHub Advanced Security
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/i740xlsqxEM/0.jpg)](https://www.youtube.com/watch?v=i740xlsqxEM)
+All information related to features of GHAS.
+
+[![Image of video](https://img.youtube.com/vi/i740xlsqxEM/0.jpg)](https://www.youtube.com/watch?v=i740xlsqxEM)
 
 - [www.exampro.com/ghas](http://www.exampro.com/ghas)
 - GitHub Certifications **does not validate programming, technical diagramming, code management**.
@@ -37,15 +39,15 @@ Refers to understanding how to use the security features of GitHub to secure you
 
 - Follow an access token to simulate the Secret Scanning functionality:
 
-```text
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2V4YW1wbGUuYXV0aDAuY29tLyIsImF1ZCI6Imh0dHBzOi8vYXBpLmV4YW1wbGUuY29tL2NhbGFuZGFyL3YxLyIsInN1YiI6InVzcl8xMjMiLCJpYXQiOjE0NTg3ODU3OTYsImV4cCI6MTQ1ODg3MjE5Nn0.CA7eaHjIHz5NxeIJoFK9krqaeZrPLwmMmgI_XiQiIkQ
+```bash
+rCVsSBDPhCckFHecuIEVqhEecazhGqw5aL5YIQZ6GesaL0bkxDZuAsOAR7Y8bWDD
 ```
 
 - Secrets stored in **repositories** like passwords, access tokens, etc.
 - Scan secrets and raise alerts
 - Take action from GitHub
 
-Full list **of current secret patterns** supported by Secret Scanning: <https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/introduction/supported-secret-scanning-patterns#high-confidence-patterns>
+Full list **of current secret patterns** supported by Secret Scanning - [Link](https://docs.github.com/en/code-security/secret-scanning/introduction/supported-secret-scanning-patterns#supported-secrets)
 
 #### Push Protection
 
@@ -104,6 +106,6 @@ Potential risk to an organization that can be exploited by a malicious attacker 
 
 ## GitHub Advisory Database
 
-- <https://github.com/advisories>
+- [Reference](https://github.com/advisories)
 
 A database maintained by GitHub with a list of security vulnerabilities of CVE and GitHub own research.
