@@ -39,7 +39,7 @@ Refers to understanding how to use the security features of GitHub to secure you
 
 - Follow an access token to simulate the Secret Scanning functionality:
 
-JWT -> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 
 - Secrets stored in **repositories** like passwords, access tokens, etc.
 - Scan secrets and raise alerts
