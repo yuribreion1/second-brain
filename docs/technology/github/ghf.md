@@ -30,3 +30,39 @@ Instances of VCS used a centralized server to store a project history. This cent
 ### Git and GitHub
 
 As mentioned previously, Git is a distributed version control system (DVCS). GitHub is a cloud platform that uses Git as its core technology, that acts as the remote repository.
+
+### Basic Git commands
+
+- `git status`
+- `git add`
+- `git commit`
+- `git log`
+- `git help`
+
+## Introduction to GitHub
+
+GitHub is a cloud-based platform that uses Git, a distributed version control (DVCS) system, as its core. With the following core pillars:
+
+- **AI**: The GitHub Enterprise platform is enhancing collaboration through AI-powered pull requests and issues through Copilot, and security by automating security checks faster.
+- **Collaboration**: Repos, Issues, Pull Requests, and other tools to help the whole company to work faster, cut down approval times, and ship more quickly.
+- **Productivity**: CI/CD tools directly integrated into the workflow, the platform gives users the ability to set tasks and forget them. Giving time to developers to focus on what matters most.
+- **Security**: 
+
+## Knowledge checks
+
+- Which of the following scenarios is a common use case for a version control system?
+  - Making experimental changes to your project in an isolated branch.
+- What is another name for a version control system?
+  - Software configuration management (SCM) system
+- What’s the difference between Git and GitHub?
+  - Git lets you work with one or more local branches and push changes to a remote repository. GitHub acts as the remote repository, which is accessed through a website or command-line tools.
+- What Git command gives information about how to use Git?
+  - `git help`
+
+## Commands tested on the sandbox
+
+- Initiate a git configuration setting the branch as main
+
+```bash
+git init -b main
+```
