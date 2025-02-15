@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Installing PostgreSQL with Homebrew
 
 1. Run the following command: `brew install postgresql` 

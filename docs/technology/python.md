@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Initial steps with Python
 
 1. Creating your local environment using [Visual Studio Code](https://code.visualstudio.com): 

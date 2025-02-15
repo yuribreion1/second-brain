@@ -1,8 +1,12 @@
+---
+sidebar_position: 3
+---
+
 # GitHub Advanced Security
 
 All information related to features of GHAS.
 
-[![Image of video](https://img.youtube.com/vi/i740xlsqxEM/0.jpg)](https://www.youtube.com/watch?v=i740xlsqxEM)
+[Course video](https://www.youtube.com/watch?v=i740xlsqxEM)
 
 - [www.exampro.com/ghas](http://www.exampro.com/ghas)
 - GitHub Certifications **does not validate programming, technical diagramming, code management**.
@@ -148,7 +152,7 @@ Unmaintained open source libraries and packages with security vulnerabilities ar
 
 In GitHub, the **Dependency graph** is a good place to see what open-source dependencies are in use in your project.
 
-To access the Dependency graph of your repository, access: <https://github.com/repo_name/second-brain/network/dependencies>
+To access the Dependency graph of your repository, [example](https://github.com/repo_name/second-brain/network/dependencies)
 
 ## References
 
