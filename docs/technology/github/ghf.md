@@ -18,7 +18,7 @@ Instances of VCS used a centralized server to store a project history. This cent
 
 ### Git terminology
 
-- **Working tree**: The set of nested directories and files that contain the project thatÄs being worked on.
+- **Working tree**: The set of nested directories and files that contain the project that's being worked on.
 - **Hash**: Git uses hashes that are 160 bits long, to identify if a file has changed or not. If the file timestamp is changed, but the file hash isn't changed, Git knowns the file contents aren't changed.
 - **Object**: A Git repo contains four types of objects:
   - A blob object that contains an ordinary file.
@@ -39,14 +39,24 @@ As mentioned previously, Git is a distributed version control system (DVCS). Git
 - `git log`
 - `git help`
 
-## Introduction to GitHub
+## What is GitHub?
 
-GitHub is a cloud-based platform that uses Git, a distributed version control (DVCS) system, as its core. With the following core pillars:
+GitHub is a cloud-based platform that uses Git, a distributed version control (DVCS) system, as its core.
+
+### Four pillars of GitHub
 
 - **AI**: The GitHub Enterprise platform is enhancing collaboration through AI-powered pull requests and issues through Copilot, and security by automating security checks faster.
 - **Collaboration**: Repos, Issues, Pull Requests, and other tools to help the whole company to work faster, cut down approval times, and ship more quickly.
 - **Productivity**: CI/CD tools directly integrated into the workflow, the platform gives users the ability to set tasks and forget them. Giving time to developers to focus on what matters most.
-- **Security**: 
+- **Security**: GitHub Enterprise platform includes native, first-party security features that minimize security risk with a built-in security solutions. Security Overview and Dependabot are those features.
+
+### Introduction to repositories
+
+#### What is a repository?
+
+A repository contains all of your project's files and each file's revision history.
+
+![new repository](image.png)
 
 ## Knowledge checks
 
