@@ -64,7 +64,55 @@ A repository contains all of your project's files and each file's revision histo
 
 ![new file on the repo](img/gh_repo_new_file.png)
 
+#### What are gists?
 
+Similarly to repositories, gists are a simplified way to share code snippets with others. 
+Basically, gist is a Git repository, which you can fork and clone to be made either public or secret. 
+
+#### What are wikis?
+
+Every repository on GitHub comes equipped with a section for hosting documentation, called a wiki. While a README file quickly tells what your project can do, you can use a wiki to provide additional documentation.
+
+### Components of the GitHub flow
+
+#### What are branches?
+
+Branches are an essential part to the GitHub experience because they're where we can make changes without affecting the entire project we're working on. Your branch is a safe place to experiment with new features or fixes.
+
+#### What are commits?
+
+A commit is a change to one or more files on a branch. Every time a commit is created, it's assigned a unique ID and tracked along with the time and contributor. 
+
+Within a git repository, a file can exist in several valid states as it goes through the version control process. The primary states for a file in a Git repository are **Untracked** and **Tracked**. These two states consist if Git is aware or not of the file existence. 
+
+Tracked files are actively monitored by Git. And have the following substates:
+
+- Unmodified: The file is tracked, but it hasn't been modified since the last commit.
+- Modified: The file(s) has been changed since the last commit, is not staged yet.
+- Staged: The modified file(s) are ready to be committed into the staged area (aka. index)
+- Committed: The file is in the repository's database. It represents the last committed version of the file.
+
+#### What are pull requests?
+
+A pull request is the mechanism used to signed that **the commits from one branch are ready to be merged into another branch**.
+
+A team member who submits a pull request can request the review of other team members before the merge.
+
+Once the changes have been approved (if required), the pull request's source branch is merged into the base branch. 
+
+![pull request](img/gh_pull_request.png)
+
+#### The GitHub flow
+
+![github flow](img/gh_flow.png)
+
+The GitHub flow can be defined as a lightweight workflow that allows for safe experimentation. You can test new ideas and collaborate with your team by using branching, pull requests, and merging. 
+
+1. Start by creating a branch so that the changes, features and fixes you create don't affect the main branch.
+2. Next, make your changes on the branch you have created for experimentation.
+3. Now, create a pull request to ask collaborators for feedback. On this step, reviews are important prior to the merge with the main branch.
+4. If the code is reviewed and approved, the merge can occur to sync the code changes on the main branch.
+5. Finally, you can delete your branch. To prevent that others use accidentally old branches.
 
 ## Knowledge checks
 
@@ -83,4 +131,10 @@ A repository contains all of your project's files and each file's revision histo
 
 ```bash
 git init -b main
+```
+
+- Create a new branch and check it out
+
+```bash
+git checkout -b newBranchName
 ```
