@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # GitHub Foundations
 
-## Introduction to Git
+## Introduction
 
 ### What is version control?
 
@@ -73,13 +73,13 @@ Basically, gist is a Git repository, which you can fork and clone to be made eit
 
 Every repository on GitHub comes equipped with a section for hosting documentation, called a wiki. While a README file quickly tells what your project can do, you can use a wiki to provide additional documentation.
 
-### Components of the GitHub flow
+## Components of the GitHub flow
 
-#### What are branches?
+### What are branches?
 
 Branches are an essential part to the GitHub experience because they're where we can make changes without affecting the entire project we're working on. Your branch is a safe place to experiment with new features or fixes.
 
-#### What are commits?
+### What are commits?
 
 A commit is a change to one or more files on a branch. Every time a commit is created, it's assigned a unique ID and tracked along with the time and contributor. 
 
@@ -92,7 +92,7 @@ Tracked files are actively monitored by Git. And have the following substates:
 - Staged: The modified file(s) are ready to be committed into the staged area (aka. index)
 - Committed: The file is in the repository's database. It represents the last committed version of the file.
 
-#### What are pull requests?
+### What are pull requests?
 
 A pull request is the mechanism used to signed that **the commits from one branch are ready to be merged into another branch**.
 
@@ -102,7 +102,7 @@ Once the changes have been approved (if required), the pull request's source bra
 
 ![pull request](../img/gh_pull_request.png)
 
-#### The GitHub flow
+### The GitHub flow
 
 ![github flow](../img/gh_flow.png)
 
@@ -113,6 +113,46 @@ The GitHub flow can be defined as a lightweight workflow that allows for safe ex
 3. Now, create a pull request to ask collaborators for feedback. On this step, reviews are important prior to the merge with the main branch.
 4. If the code is reviewed and approved, the merge can occur to sync the code changes on the main branch.
 5. Finally, you can delete your branch. To prevent that others use accidentally old branches.
+
+## GitHub is a collaborative platform
+
+Along of the features that allow to keep the project up-to-date as branches, and pull requests. GitHub has more features to improve collaboration within repositories.
+
+### Issues
+
+GitHub Issues were created to track ideas, feedbacks, tasks, or bugs for work on GitHub. An issue can be created from a repository:
+
+![issues](../img/gh_issues.png)
+
+Issues can be attached to a project, a pull request, and to a label as well.
+
+### Discussions
+
+Discussions are for conversations accessible to everyone and aren't related to code. 
+
+> [!NOTE]
+> Discussion is enabled on repository settings
+> ![discussion](../img/gh_discussion_enable.png)
+
+## GitHub platform management
+
+### Managing notifications and subscriptions
+
+You can choose to receive ongoing updates about specific activity on GitHub through a subscription. Notifications are the updates that you receive for specific activity to which you're subscribed.
+
+#### Subscription options
+
+You can choose to subscribe to notifications for:
+
+- A conversation in a specific issue, pull request, or gist. 
+- CI activity, such as the status of workflows in repositories set up with GitHub Actions.
+- Repository issues, pull requests, releases, security alerts, or discussions (if enabled).
+- All activities in repository.
+
+#### What are GitHub Pages?
+
+GitHub Pages is a static site-hosting service that takes HTML, CSS, and Javascript files straight from a repository on GitHub.
+Optionally, you can run the files through a build process and publish a website. Edit and push your changes, and your project is live for the public in a visually organized way.
 
 ## Knowledge checks
 
