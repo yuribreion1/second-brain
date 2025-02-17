@@ -58,11 +58,11 @@ A repository contains all of your project's files and each file's revision histo
 
 - To create a repository, click on the plus button at the top right:
 
-![new repository](img/gh_repository.png)
+![new repository](../img/gh_repository.png)
 
 - To add a file to your repo, click on the **Add file** button
 
-![new file on the repo](img/gh_repo_new_file.png)
+![new file on the repo](../img/gh_repo_new_file.png)
 
 #### What are gists?
 
@@ -100,11 +100,11 @@ A team member who submits a pull request can request the review of other team me
 
 Once the changes have been approved (if required), the pull request's source branch is merged into the base branch. 
 
-![pull request](img/gh_pull_request.png)
+![pull request](../img/gh_pull_request.png)
 
 #### The GitHub flow
 
-![github flow](img/gh_flow.png)
+![github flow](../img/gh_flow.png)
 
 The GitHub flow can be defined as a lightweight workflow that allows for safe experimentation. You can test new ideas and collaborate with your team by using branching, pull requests, and merging. 
 
