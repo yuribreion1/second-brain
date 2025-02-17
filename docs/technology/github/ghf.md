@@ -56,7 +56,15 @@ GitHub is a cloud-based platform that uses Git, a distributed version control (D
 
 A repository contains all of your project's files and each file's revision history.
 
-![new repository](image.png)
+- To create a repository, click on the plus button at the top right:
+
+![new repository](img/gh_repository.png)
+
+- To add a file to your repo, click on the **Add file** button
+
+![new file on the repo](img/gh_repo_new_file.png)
+
+
 
 ## Knowledge checks
 
