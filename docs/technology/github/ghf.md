@@ -282,6 +282,42 @@ GitHub Enterprise Cloud includes a dramatic increase in both GitHub Actions minu
 - A service level agreement for 99.9% monthly uptime
 - Option to centrally manage policy and billing for multiple GitHub.com - organizations with an enterprise account
 - Option to provision and manage the user accounts for your developers, by using Enterprise Managed Users
+
+### GitHub Mobile and GitHub Desktop
+
+GitHub Mobile and GitHub Desktop are options to access your GitHub account aside from github.com.
+
+#### GitHub Mobile
+
+Allows you to access securely your GitHub account from mobile devide to perform several activities as:
+
+- Read, and review Pull Requests
+- Receive notifications based on mentions
+- Secure your Github.com account with two-factor authentication
+
+#### GitHub Desktop
+
+GitHub Desktop is an open-source, stand-alone software application that simplify the usage of Git in GitHub through an user interface. Users can: 
+
+- Add and clone repositories
+- Check out branches with pull requests and view CI statuses
+- Compare changed images
+
+### GitHub billing
+
+GitHub bills separately for your personal account, and for each organization or enterprise account you own. 
+Each bill is a combination of charges for your subscriptions and usage-based billing.
+
+- **Subscriptions** include your account's plan, such as GitHub Pro or GitHub Team, and paid products as GitHub Copilot and apps from GitHub Marketplace.
+- **Usage-based billing** applies when the cost of a paid product depends on how much you use the product. For example, the cost of GitHub Actions depends on how many minutes your jobs spend running and how much storage your artifacts use.
+
+## Configure code scanning on GitHub
+
+### What is code scanning?
+
+Code scanning uses CodeQL to analyze the code in a GitHub repositoriy to find security vulnerabilities and coding errors. You can use code scanning to find, triage, and prioritize fixes for existing problems in your code.
+
+https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/2-what-code-scanning
   
 ## Knowledge checks
 
@@ -299,6 +335,14 @@ GitHub Enterprise Cloud includes a dramatic increase in both GitHub Actions minu
   - Create a pull request to merge your new branch into the `main` branch.
 - Suppose you'd like to work with a project on GitHub, but you don't have write access to the project. What can you do to contribute?
   - Fork the project's repository to your GitHub account, clone the forked repository to your local machine, push changes to your repository, and submit a pull request to the target (upstream) repository.
+- What's the difference between GitHub organization accounts and GitHub personal/user accounts?
+  - Organizational accounts are shared accounts, while personal/user accounts are for individuals.
+- What's the best reason to decide to upgrade to the GitHub Enterprise product?
+  - Because you want to centrally manage users and repositories across multiple organizations.
+- What's the purpose of a team?
+  - A team is intended to reflect a company or group's structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
+- What's a function you can execute on GitHub Mobile?
+  - Manage, triage, and clear notifications from github.com
 
 ## Commands tested on the sandbox
 
