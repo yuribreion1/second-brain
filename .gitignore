@@ -4,6 +4,9 @@
 # Production
 /build
 
+# CodeQL Database
+.codeql
+
 # Generated files
 .docusaurus
 .cache-loader

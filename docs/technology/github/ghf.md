@@ -323,6 +323,14 @@ Code scanning uses CodeQL to analyze the code in a GitHub repository to find sec
 - Use advanced setup to add the CodeQL workflow directly to your repository, using your workflow file with the [github/codeql-action](https://github.com/github/codeql-action/).
 - Run the CodeQL CLI directly in an external CI system and upload the results to GitHub.
 
+## Enable code scanning with third party tools
+
+Instead of running code scanning in GitHub, you can perform analysis elsewhere and then upload the results. You can upload Static Analysis Results Interchange Format (SARIF) files generated outside GitHub.
+
+### About SARIF file uploads for code scanning
+
+Github creates code/scanning alerts in a repository using information from SARIF files. You can generate SARIF files using many static analysis-security testing tools, including CodeQL.
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
@@ -360,4 +368,22 @@ git init -b main
 
 ```bash
 git checkout -b newBranchName
+```
+
+- Creating a CodeQL database for the first scan
+
+```bash
+codeql database create .codeql --language=javascript-typescript
+```
+
+- Running analyze
+
+```bash
+codeql database analyze .codeql --format=sarif-latest --output=./codeql-analyze.sarif
+```
+
+- Upload SARIF results
+
+```bash
+codeql github upload-results --repository=yuribreion1/second-brain --ref=refs/heads/main --sarif=codeql-analyze.sarif
 ```
