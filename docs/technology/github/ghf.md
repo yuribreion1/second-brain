@@ -297,7 +297,7 @@ Allows you to access securely your GitHub account from mobile devide to perform 
 
 #### GitHub Desktop
 
-GitHub Desktop is an open-source, stand-alone software application that simplify the usage of Git in GitHub through an user interface. Users can: 
+GitHub Desktop is an open-source, stand-alone software application that simplify the usage of Git in GitHub through an user interface. Users can:
 
 - Add and clone repositories
 - Check out branches with pull requests and view CI statuses
@@ -305,7 +305,7 @@ GitHub Desktop is an open-source, stand-alone software application that simplify
 
 ### GitHub billing
 
-GitHub bills separately for your personal account, and for each organization or enterprise account you own. 
+GitHub bills separately for your personal account, and for each organization or enterprise account you own.
 Each bill is a combination of charges for your subscriptions and usage-based billing.
 
 - **Subscriptions** include your account's plan, such as GitHub Pro or GitHub Team, and paid products as GitHub Copilot and apps from GitHub Marketplace.
@@ -315,10 +315,14 @@ Each bill is a combination of charges for your subscriptions and usage-based bil
 
 ### What is code scanning?
 
-Code scanning uses CodeQL to analyze the code in a GitHub repositoriy to find security vulnerabilities and coding errors. You can use code scanning to find, triage, and prioritize fixes for existing problems in your code.
+Code scanning uses CodeQL to analyze the code in a GitHub repository to find security vulnerabilities and coding errors. You can use code scanning to find, triage, and prioritize fixes for existing problems in your code.
 
-https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/2-what-code-scanning
-  
+### About code scanning with CodeQL
+
+- Use default setup to quickly configure CodeQL analysis for code scanning on your repository. The default setup handles choosing the languages to analyze, query suite to run, and events that trigger scans with the option to manually configure the languages and query suites.
+- Use advanced setup to add the CodeQL workflow directly to your repository, using your workflow file with the [github/codeql-action](https://github.com/github/codeql-action/).
+- Run the CodeQL CLI directly in an external CI system and upload the results to GitHub.
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
