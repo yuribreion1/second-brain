@@ -323,6 +323,10 @@ Code scanning uses CodeQL to analyze the code in a GitHub repository to find sec
 - Use advanced setup to add the CodeQL workflow directly to your repository, using your workflow file with the [github/codeql-action](https://github.com/github/codeql-action/).
 - Run the CodeQL CLI directly in an external CI system and upload the results to GitHub.
 
+## Enable code scanning with third party tools
+
+
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
