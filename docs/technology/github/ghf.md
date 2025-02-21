@@ -355,6 +355,12 @@ Github creates code/scanning alerts in a repository using information from SARIF
   - A team is intended to reflect a company or group's structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
 - What's a function you can execute on GitHub Mobile?
   - Manage, triage, and clear notifications from github.com
+- When code scanning is enabled, what is one default event that triggers a scan?
+  - Pushing a change
+- Which of the following are the tools used to upload a SARIF file?
+  - The tools used are GitHub Actions, the code scanning API, and the CodeQL CLI
+- What is the difference between scheduled versus triggered events in code scanning?
+  - Scheduled events run based on a specified schedule and triggered events run on code events such a push
 
 ## Commands tested on the sandbox
 
