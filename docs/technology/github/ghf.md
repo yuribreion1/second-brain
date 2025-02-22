@@ -331,6 +331,94 @@ Instead of running code scanning in GitHub, you can perform analysis elsewhere a
 
 Github creates code/scanning alerts in a repository using information from SARIF files. You can generate SARIF files using many static analysis-security testing tools, including CodeQL.
 
+## Introduction to GitHub Copilot
+
+### GitHub Copilot, your AI pair programmer
+
+Powered by OpenAI Codex, GitHub Copilot acts as a pair programmer that can help you to create and manipulate code quickly, to focus on topics that really matter.
+GitHub Copilot offer three features:
+
+#### Copilot chat
+
+Like ChatGPT, Copilot chat can be used to make questions and queries considering the context that you are working with. Using GitHub Copilot in your favorite IDE, the Copilot chat feature is capable based on the file, and project that you are working, to provide accurate feedbacks and answers.
+
+#### Copilot for pull requests
+
+OpenAI GPT-4 model adds support in GitHub Copilot for AI-powered tags in pull-request description through a GitHub app installed by admins or repository owners. GitHub Copilot can automatically fills out pull request description based on the changed code, send on the pull request.
+
+#### Copilot for the CLI
+
+Developers spend most of their time on the terminal using several CLI's, GitHub Copilot also support queries directly on the terminal to reduce the amount of times developers switch to another programs and sites.
+
+### Subscription plans
+
+#### GitHub Copilot Business
+
+GitHub Copilot Business allows you to control who can use GitHub Copilot in your business. The access can be granted for individuals and teams.
+
+#### GitHub Copilot Enterprise
+
+GitHub Copilot Enterprise is available for organizations through GitHub Enterprise Cloud. And the main different between GitHub Copilot Business is the plus layer of personalization for organizations.
+GitHub Copilot Enterprise can index an organization's codebase for a deeper understanding and for suggestions that are more tailored. If offers access to GitHub Copilot customization to fine-tune private models for code completion.
+
+### Interact with Copilot
+
+#### Inline suggestions
+
+Inline suggestions are the most immediate form of assistance in Copilot. As you type, Copilot analyzes your code and context to offer real-time code completions. This feature predicts what you might want to write next and displays suggestions.
+
+- To accept suggestions please `TAB` and to reject press `ESC`
+
+#### Command palette
+
+The command palette provides quick access to various functions in Copilot, so you can perform complex tasks with only a few keystrokes.
+
+1. Open the command palette in Visual Studio Code by selecting `Ctrl+Shift+P` or `Cmd+Shift+P` on Mac.
+2. Enter Copilot to see available commands
+3. Select actions like Explain This or Generate Unit Tests to get assistance
+
+#### Copilot chat again
+
+Copilot chat is an interactive feature that enables you to communicate with Copilot by using natural language. You can ask questions or request code snippets, and Copilot provides responses based on your input.
+
+For example: "How do I implement a binary search in Python?"
+
+Copilot is ideal for exploring new coding concepts or getting help with unfamiliar syntax.
+
+#### Inline chat
+
+Inline chat enables context-specific conversations with Copilot directly within your code editor.
+
+1. Place the cursor where you want assistance
+2. Use the keyboard shortcut `Ctrl+I` or `Cmd+I` to open inline chat.\
+3. Ask questions or request changes specific to that code location
+
+#### Comments to code
+
+Copilot uses natural language processing to convert comments into code.
+
+Here is an example:
+
+```text
+# Generate a hello world with Typescript
+    // Code written by GitHub Copilot based on the comments
+```
+
+#### Multiple suggestions
+
+For complex code snippets, Copilot can offer multiple alternatives.
+
+1. When Copilot offers a suggestion, look for the light bulb icon.
+2. Select the icon or use `Alt+]` or `Option+]` to cycle through alternatives
+
+#### Explanations
+
+Understanding existing code is crucial, especially in large projects. You can use the **Explain This** feature to get explanations for code snippets.
+
+1. Select a block of code
+2. Right-click the code block, and then select Copilot: **Explain This** on the shortcut  menu
+3. Read the explanation that Copilot provides for the selected code
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
@@ -361,6 +449,12 @@ Github creates code/scanning alerts in a repository using information from SARIF
   - The tools used are GitHub Actions, the code scanning API, and the CodeQL CLI
 - What is the difference between scheduled versus triggered events in code scanning?
   - Scheduled events run based on a specified schedule and triggered events run on code events such a push
+- What is GitHub Copilot?
+  - GitHub Copilot is an AI pair programmer that you can use to get code suggestions
+- What are the supported IDE extensions for GitHub Copilot?
+  - VS Code, Visual Studio, Neovim, and JetBrains
+- What is the difference between GitHub Copilot Business and GitHub Copilot Enterprise?
+  - GitHub Copilot Enterprise has an extra layer of personalization. Organizations use their own codebase to train GitHub Copilot.
 
 ## Commands tested on the sandbox
 
