@@ -323,7 +323,7 @@ Code scanning uses CodeQL to analyze the code in a GitHub repository to find sec
 - Use advanced setup to add the CodeQL workflow directly to your repository, using your workflow file with the [github/codeql-action](https://github.com/github/codeql-action/).
 - Run the CodeQL CLI directly in an external CI system and upload the results to GitHub.
 
-## Enable code scanning with third party tools
+### Enable code scanning with third party tools
 
 Instead of running code scanning in GitHub, you can perform analysis elsewhere and then upload the results. You can upload Static Analysis Results Interchange Format (SARIF) files generated outside GitHub.
 
@@ -418,6 +418,30 @@ Understanding existing code is crucial, especially in large projects. You can us
 1. Select a block of code
 2. Right-click the code block, and then select Copilot: **Explain This** on the shortcut  menu
 3. Read the explanation that Copilot provides for the selected code
+
+## Code with GitHub Codespaces
+
+GitHub Codespaces is configurable, allowing you to create a customized development environment for your project.
+
+### Create a Codespace
+
+Codespaces can be created on GitHub.com, in Visual Studio Code, or by GitHub CLI. And there are four ways to create a Codespace:
+
+- From a GitHub template or any template repository on GitHub.com to start a new project
+- From a branch in your repository, for new feature work
+- From an open pull request, to explore work-in-progress
+- From a commit in a repository's history to investigate a bug at a specific point in time
+
+#### Codespace creation process
+
+![code space creation process](../img/gh_codespaces_create.png)
+
+When you create a GitHub Codespace, four processes occur:
+
+1. A virtual machine and storage are assigned to your Codespace
+2. A container is created
+3. A connection to the Codespace is mage
+4. A post-creation setup is made
 
 ## Knowledge checks
 
