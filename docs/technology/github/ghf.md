@@ -443,6 +443,23 @@ When you create a GitHub Codespace, four processes occur:
 3. A connection to the Codespace is mage
 4. A post-creation setup is made
 
+### Personalize your Codespace
+
+Codespaces support several personalizations in line with your environment requirements. Follow some of the customizations:
+
+- **Settings sync**: You can synchronize your VS Code settings between your desktop application with VS Code web client
+- **Dotfiles**: You can a dotfiles repository to specify scripts, shell preferences, and other configurations
+- **Change your shell**: You can define your preferred shell
+- **Set a region**: A region can be defined to host your code space
+- **Timeout configuration**: Configure a timeout to stop your Codespace - Default 30 minutes
+- Configure automatic deletion: Inactive Codespaces are automatically deleted. You can configure how long your Codespace is retained, up to a maximum of 30 days
+
+### Codespaces versus GitHub.dev editor
+
+You can use GitHub.dev to navigate files and source code repositories from GitHub, and commit code changes. If you want to do more heavy lifting like testing your code, use GitHub Codespaces. It has compute associate with it so you can build and run your code, and have terminal access.
+
+You can start your workflow in GitHub.dev editor and continue working on Codespaces to build your code or debug it.
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
