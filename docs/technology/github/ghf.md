@@ -496,6 +496,14 @@ You can start your workflow in GitHub.dev editor and continue working on Codespa
   - VS Code, Visual Studio, Neovim, and JetBrains
 - What is the difference between GitHub Copilot Business and GitHub Copilot Enterprise?
   - GitHub Copilot Enterprise has an extra layer of personalization. Organizations use their own codebase to train GitHub Copilot.
+- Which directory is the clone placed in after creating a Codespace?
+  - ´/workspaces´
+- What's the maximum number of Codespaces that you can create per repository or branch?
+  - You can create an unlimited number of Codespaces per repository or branch, depending upon available space. When you reach an upper amount of resources, a message displays that an existing Codespace needs to removed/deleted before a new Codespace can be created.
+- What happens when Codespace loses internet connectivity?
+  - If the connection to the internet is lost while working in a Codespace, you aren't able to access your Codespace.
+- What defines the beginning of a Codespace's lifecycle?
+  - A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.
 
 ## Commands tested on the sandbox
 
