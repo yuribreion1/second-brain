@@ -460,6 +460,29 @@ You can use GitHub.dev to navigate files and source code repositories from GitHu
 
 You can start your workflow in GitHub.dev editor and continue working on Codespaces to build your code or debug it.
 
+## Manage your work with GitHub Projects
+
+GitHub Projects is a space inside GitHub, where the work can be organized, planned, and executed.
+
+There are several enhancements on the new Project experience. Which enables more customization. 
+
+### Creating an organization-level project
+
+It is possible to create a project for your organization, following this steps:
+
+1. In the top right corner of GitHub.com, select your profile photo, then select Your organizations.
+2. Scroll down to select the organization for your new Project.
+3. Navigate from the Overview tab to the Projects tab.
+4. Select the green button labeled New Project.
+5. A pop-up prompts you to select either a template or start from scratch. Let's choose the Start from scratch option and select Table.
+6. Select the green Create project button.
+
+### Add an existing issue and pull request to your project
+
+Simply copy the issue/pull request URL on the text input field to create new issue.
+
+![adding existing issue](../img/gh_new_issue.png)
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
@@ -504,6 +527,16 @@ You can start your workflow in GitHub.dev editor and continue working on Codespa
   - If the connection to the internet is lost while working in a Codespace, you aren't able to access your Codespace.
 - What defines the beginning of a Codespace's lifecycle?
   - A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.
+- What Project descriptor automatically saves when you change it?
+  - Project name
+- What does an iteration field help you do in Projects?
+  - Allows you to create sequential phases of your project and group issues and pull requests based on the phase.
+- What field can you use in order to make a Priority grouping like High, Medium, and Low in your Project?
+  - Single select
+- What is the easiest way to add automation to your Project?
+  - Built-in Automation
+- What is the name of the section where you can change the visibility of your Project, close your Project, or delete your Project?
+  - Danger zone
 
 ## Commands tested on the sandbox
 
