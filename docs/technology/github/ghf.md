@@ -508,6 +508,8 @@ You should always start by communicating your intent to contribute before you do
 
 - If you want to work on an existing issue, check that nobody is assigned to it by looking at the **Assignees** section, also check the **Linked pull requests**
 
+- [First contributor repository](https://github.com/firstcontributions/first-contributions)
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
@@ -568,6 +570,12 @@ You should always start by communicating your intent to contribute before you do
   - Escape them with a backslash, like \* or \_
 - Suppose there's an HTML snippet that you want to include on your GitHub Pages web site, but Markdown doesn't offer a way to render it. What should you do?
   - Just add the HTML inline
+- What is the best place on a GitHub repository to find where you can help a project?
+  - The README file
+- What is the preferred way to ask for help or reviews on a pull request?
+  - Add comment in the pull request
+- What is needed before you can create a pull request on GitHub?
+  - Fork a repo, clone it, commit changes, and push to your fork
 
 ## Commands tested on the sandbox
 
