@@ -464,7 +464,7 @@ You can start your workflow in GitHub.dev editor and continue working on Codespa
 
 GitHub Projects is a space inside GitHub, where the work can be organized, planned, and executed.
 
-There are several enhancements on the new Project experience. Which enables more customization. 
+There are several enhancements on the new Project experience. Which enables more customization.
 
 ### Creating an organization-level project
 
@@ -537,6 +537,12 @@ Simply copy the issue/pull request URL on the text input field to create new iss
   - Built-in Automation
 - What is the name of the section where you can change the visibility of your Project, close your Project, or delete your Project?
   - Danger zone
+- Which of the following Markdown snippets produces the text Hello, world! in bold italics?
+  - ***Hello, world!***
+- How do you print certain characters, like asterisks (*) and underscores (_), literally on your output?
+  - Escape them with a backslash, like \* or \_
+- Suppose there's an HTML snippet that you want to include on your GitHub Pages web site, but Markdown doesn't offer a way to render it. What should you do?
+  - Just add the HTML inline
 
 ## Commands tested on the sandbox
 
