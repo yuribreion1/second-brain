@@ -608,3 +608,7 @@ codeql database analyze .codeql --format=sarif-latest --output=./codeql-analyze.
 ```bash
 codeql github upload-results --repository=yuribreion1/second-brain --ref=refs/heads/main --sarif=codeql-analyze.sarif
 ```
+
+## References
+
+- [GitHub Foundations Practice Test](https://ghcertified.com/practice_tests/foundations/)
