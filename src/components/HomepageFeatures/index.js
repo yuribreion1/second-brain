@@ -1,10 +1,11 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import PropTypes from 'prop-types';
 
 const FeatureList = [
   {
-    title: 'Tecnology',
+    title: 'Technology',
     Svg: require('@site/static/img/technology.svg').default,
     description: (
       <>
@@ -45,6 +46,12 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
+
+Feature.propTypes = {
+  Svg: PropTypes.elementType.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.node.isRequired,
+};
 
 export default function HomepageFeatures() {
   return (

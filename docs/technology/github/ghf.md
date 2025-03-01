@@ -483,6 +483,31 @@ Simply copy the issue/pull request URL on the text input field to create new iss
 
 ![adding existing issue](../img/gh_new_issue.png)
 
+## Contribute to an open-source project on GitHub
+
+You can find a topic of interest using [GitHub search](https://github.com/search) and filtering by Topics on the right side.
+
+### Familiarize yourself with an open-source project
+
+Open-source projects usually have these documents at the top level of the repository:
+
+- LICENSE - The project must contain an open-source license
+- README - Serves as a welcome page for the project
+- CONTRIBUTING - Guidance on how to contribute to the project
+- CODE_OF_CONDUCT - Rules for community members
+
+### Sponsor a project
+
+You can financially support the folks who build and maintain the open-source ecosystem through code.
+
+![sponsor a project](../img/gh_sponsor_project.png)
+
+### Communicate your intent to maintainers
+
+You should always start by communicating your intent to contribute before you do any actual work.
+
+- If you want to work on an existing issue, check that nobody is assigned to it by looking at the **Assignees** section, also check the **Linked pull requests**
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
