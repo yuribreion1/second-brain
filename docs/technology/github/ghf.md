@@ -508,6 +508,8 @@ You should always start by communicating your intent to contribute before you do
 
 - If you want to work on an existing issue, check that nobody is assigned to it by looking at the **Assignees** section, also check the **Linked pull requests**
 
+- [First contributor repository](https://github.com/firstcontributions/first-contributions)
+
 ## Knowledge checks
 
 - Which of the following scenarios is a common use case for a version control system?
@@ -568,6 +570,12 @@ You should always start by communicating your intent to contribute before you do
   - Escape them with a backslash, like \* or \_
 - Suppose there's an HTML snippet that you want to include on your GitHub Pages web site, but Markdown doesn't offer a way to render it. What should you do?
   - Just add the HTML inline
+- What is the best place on a GitHub repository to find where you can help a project?
+  - The README file
+- What is the preferred way to ask for help or reviews on a pull request?
+  - Add comment in the pull request
+- What is needed before you can create a pull request on GitHub?
+  - Fork a repo, clone it, commit changes, and push to your fork
 
 ## Commands tested on the sandbox
 
@@ -600,3 +608,308 @@ codeql database analyze .codeql --format=sarif-latest --output=./codeql-analyze.
 ```bash
 codeql github upload-results --repository=yuribreion1/second-brain --ref=refs/heads/main --sarif=codeql-analyze.sarif
 ```
+
+## GitHub Foundations Practice Test
+
+- How can you define guiding protocols for users intending to submit bug reports or propose new features in your repository so they know what information to fill-in?
+  - Create issue templates
+- What are the different repository visibility options?
+  - Private, Public and Internal (Enterprise only)
+- What are the use cases for labels?
+  - Categorizing issues and pull requests
+- What is the GitHub Flow?
+  - It refers to a branch-based workflow where developers create a branch for each new change they are working on, and then open pull requests to get their code reviewed, tested, and merged into the main branch
+- What is the meaning of the word `distributed ` in distributed version control system?
+  - It means that developers can have a full copy of the repository and its history on their local machine
+- Your project requires appropriate hardware to run. Can you customize the amount of CPU cores that will be allocated to your GitHub Codespace environment?
+  - Yes, you can choose an alternative machine type either when you create a codespace or at any time after you have created a codespace
+- Which of these statements best describes what GitHub is?
+  - GitHub is a platform that uses Git as its core technology and adds features that make collaboration and code management easier
+- What is the purpose of a `CODEOWNERS` file?
+  - The `CODEOWNERS` file allows you to define individuals or teams that are responsible for specific areas of the codebase or its entirety
+- What is a repository in GitHub?
+  - It is a place where you can store your code, your files, and each files revision hisotry
+- What is the difference between GitHub projects and GitHub projects classic?
+  - GitHub Projects is a the new GitHub experience which offers a lot of new features and improvements over the older GitHub Projects classic
+- Can you disable the issues tab on a repository?
+  - Yes
+- What are the different forms of 2FA or MFA supported by GitHub?
+  - Security key, Text message, Time-based one-time password (TOTP), Passkey, GitHub mobile
+- What is the role of an organization moderator?
+  - Moderators are organization members who, in addition to their permission as members, are allowed to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization
+- What are Enterprise Managed Users?
+  - It is a GitHub Enterprise feature that allows you to manage user access from an external identity provider such as Azure AD or Okta
+- Which of the following actions cannot be performed directly from GitHub Desktop?
+  - Managing GitHub Actions
+- What are pinned repositories on GitHub?
+  - Pinned repositories are repositories that you have pinned to the top of your GitHub profile
+- Which of the following actions can you perform on a GitHub Discussion? (Choose three.)
+  - Pin a discussion, Convert it to an issue, Transfer it to another repository discussion
+- What is the main difference between an organization member and an outside collaborator for a repository owned by that organization?
+  - Outside collaborators have repository-level access but are not part of the organization; members belong to the organization and may have broader access and roles
+- If you face yourself often writing the same set of comments on issues or pull requests, what GitHub feature would you use to save time?
+  - Saved replies
+- What are the differences between GitHub Copilot Individual and GitHub Copilot Business?
+  - GitHub Copilot Individual can only be used by personal accounts and GitHub Copilot Business is used by organizations and enteprises
+- What is the relation between Git and GitHub?
+  - Git is a distributed version control system and GitHub is a platform that uses Git as its core technology
+- What are the different possible lifecycle phases for a GitHub Codespaces?
+  - Create, Delete
+- What features is unique to GitHub Desktop compared to github.com?
+  - Visualize branch histories in a graphical interface
+- What syntax is used in GitHub Markdown to create a task list?
+  - `- [ ] and - [x]`
+- What is the effect of adding a line `Closes #11` to the pull request description?
+  - Once that pull request is merged, the issue #11 will be closed automatically
+- Which feature in GitHub Projects enables you to effortlessly generate graphs and charts for visualizing the current status and historical progression of your project?
+  - Project Insights
+- Which of these statements accurately describes a difference between personal accounts and organization accounts on GitHub?
+  - An organization account can have multiple owners and members, whereas a personal account belongs to a single user only
+- Which of these actions will make sure that prior to any push to the `main` branch, the changes have been approved by at least two people? (Choose three.)
+  - Create a branch protection rule for `main` branch, On the branch protection rule, require at least 2 approvals before merging a pull request, Enforce status checks are passing before merging a pull request to the `main` branch
+- Which Markdown element is not correctly paired with its syntax?
+  - Inline code - `'''code'''`
+- Why would a repository owner want to use milestones? (Choose two.)
+  - To associate issues and pull requests with specific project phases, To have an overview of how much work is left to complete a project phase
+- Which of these can you customize in a Codespaces `.devcontainer/devcontainer.json` configuration file? (Choose three.)
+  - Operating system or base image, Shell configuration, Codespace display name
+- How can you start using GitHub Copilot after activating the GitHub Copilot subscription?
+  - Setup GitHub Copilot in one of the supported IDEs such as Visual Studio Code or JetBrains and start coding
+- Who are repository collaborators?
+  - Collaborators are people who have been granted write access to a repository
+- Who can setup billig or assign billing managers for an organization? (Select three)
+  - Owner at the organization level, Owner at the enterprise level, Billing managers at the organization level
+- What is the GitHub Marketplace?
+  - GitHub Marketplace is a place where developers can find tools that help build software right alongside their code
+- Which of the GitHub features best serves as a simple way to share small code snippets with others?
+  - Gists
+- What is the role of an organization security manager?
+  - Security managers are organizational members who can view security alerts and manage settings for code security across your organization, as well as read permission to all repositories in the organization
+- What is a fork in GitHub?
+  - A fork is a personal copy of another user repository that lives on your account
+- What is InnerSource?
+  - InnerSource refers to the practice of applying open source principles within an organization
+- What can you find in the security tab of a repository?
+  - A security overview of that repository such as vulnerabilities in dependencies, code scanning results, and secret scanning alerts
+- How can you enforce status checks passing before merging a pull request to the `main` branch?
+  - By creating a branch protecting rule
+- What is the GitHub Sponsors program?
+  - It is a way to financially support the developers of the open source projects
+- What is a git commit?
+  - A commit is a snapshot of a repository at a specific point in time
+- How can you work together with a friend of yours on a repository that you have created on your personal GitHub account?
+  - Go to the repository settings and invite him as a collaborator
+- Which of these workflows are built-in automations in GitHub Projects? (Choose two.)
+  - When issues or pull requests in your project are closed, their status is set to Done
+  - When pull requests in your project are merged, their status is set to Done
+- Which of these statements about GitHub Pages is correct?
+  - GitHub Pages enables you to host static sites from a GitHub repository
+- Which of these tools serves as an AI pair programmer that offers autocomplete-style suggestions as you code?
+  - GitHub Copilot
+- Is there a free version of GitHub for organizations?
+  - Yes
+- What is a GitHub Codespace?
+  - It's a preconfigured development environment specifically setup for a repository. It allows you immediately start writing code for a project without having to setup a local development environment
+- What are the different available options for adding issues and pull requests to a GitHub Project board?
+  - Individually, automatically, or in bulk
+- Which of the following roles are available for a repository at the organization level on GitHub? (Choose five.)
+  - Read
+  - Write
+  - Maintain
+  - Admin
+  - Triage
+- Is GitHub Copilot free to use?
+  - Yes, if you are a student, teacher, or maintainer of a popular open source project
+- Which of these statements best describes a version control system?
+  - It is a system that tracks the history of changes made to a collection of files
+- GitHub Action workflows are triggered by events. Which of these are valid events that GitHub Actions support? (Choose two.)
+  - A pull request is opened
+  - A commit is pushed to a branch
+- Which feature provides pre-built charts or visualizations for repository activity and health?
+  - Insights tab
+- Which of the following best describes GitHub secret scanning?
+  - A feature that searches repositories for known secret formats to prevent accidental exposure of sensitive data
+- What are the different permission levels for a repository owned by a personal account? (Choose two.)
+  - Collaborator
+  - Repository owner
+- What is GitHub Mobile?
+  - It is a mobile app for iOS and Android that allows you to work with GitHub from your phone
+- How does GitHub help people that want to write proper issue and pull request comments but don't know Markdown syntax?
+  - There is a text formatting toolbar on issue and pull request comment forms which generates Markdown for you
+- Where can you disable repository features such as issues, wikis or projects on a repository that you own?
+  - In the repository settings
+- What are the two available options when you no longer need to use a Project?
+  - Close and delete
+- What is a GitHub Codespace deep link?
+  - It is a link that points to a specific GitHub.com page that allows you to create a new GitHub Codespace and select specific configuration
+- What are the possible GitHub account types? (Select three.)
+  - Personal accounts
+  - Organization accounts
+  - Enterprise accounts
+- Who should have 2 Factor Authentication enabled on GitHub?
+  - All GitHub users
+- What is the name of GitHub's continuous integration and continuous delivery (CI/CD) platform?
+  - GitHub Actions
+- Which of these statements about saved replies are true? (Choose two.)
+  - Saved replies are comments that you can reuse in issues and pull requests
+  - Saved replies are only available to repository owners which can setup automated replies to issues and pull requests
+- What is CodeQL?
+  - A code analysis tool
+- What are the different options that allow you to automate operations in your GitHub Project? (Choose three.)
+  - GitHub GraphQL API
+  - GitHub Actions
+  - Project workflows
+- Which of these is a common use case for GitHub Actions?
+  - Running automated tests prior to merging a pull request
+- What are GitHub's slash commands?
+  - It is a way to quickly insert complex Markdown into your pull request or issue comments and description
+- What is one of the main benefits for using a Personal Access Token (PAT) instead of a standard username and password for GitHub authentication?
+  - PAT can be used for authentication to GitHub when using the GitHub API or the command line. Users generate a token via the GitHub settings option, and tie the token permission to a repository or organization
+- Which of the following are valid states for a pull request on GitHub?
+  - Merged
+  - Closed
+  - Draft
+  - Open
+- What improvement do issue forms bring over issue templates?
+  - Issue forms allow for users to be prompted for information when creating an issue and then have that information automatically added to the issue
+- Which of these is a practice that encourages collaboration, visibility and sharing of code among different teams within an organization?
+  - InnerSource
+- Which GitHub pricing plan offers self-hosted deployment of GitHub?
+  - Enterprise
+- What are some actions you can do in regards to Project Templates in your organization? (Choose three.)
+  - Create a new template to be used as a base for new projects
+  - Configure recommended templates to your organization members
+  - With admin or write permissions, copy an existing project as a template
+- You want to merge changes from branch feature-a into main and you are creating a pull request. Which branch should be the base branch and which branch should be the compare branch?
+  - `main` is the base branch and `feature-a` is the compare branch
+- What are the different deployment options for GitHub Enterprise? (Select two.)
+  - GitHub Enterprise Cloud
+  - GitHub Enterprise Server
+- What is/are the common GitHub pricing plan(s) for both personal and organization accounts?
+  - Team
+- Which of these is true regarding custom fields for items in GitHub Projects?
+  - Custom fields enable the addition of metadata beyond the built-in options, such as target dates and iteration fields
+- What language is used to write comments on GitHub issues and pull requests?
+  - Markdown
+- What are the different possible lifecycle phases for a GitHub Codespace?
+  - Create, Delete
+- Which of these can make a repository more discoverable? (Choose three.)
+  - Giving the repository a descriptive name
+  - Setting up topics for the repository
+  - A well-crafted collection of markdown documents like `README.md`, `CONTRIBUTING.md` and others
+- Who can setup billing or assign billing managers for an organization? (Select three.)
+  - Owner at the enterprise level
+  - Owner at the organization level
+  - Billing managers at the organization level
+- What are the possible statuses for a pull request review? (Choose three.)
+  - Close
+  - Deny
+  - Approve
+- On your personal GitHub dashboard you received a notification that user `octocat` has created a new repository `octocat/my-repo`. Why did you receive that notification?
+  - Because you are following the user `octocat`
+- What GitHub feature allows the creation of preconfigured development environments where all necessary tools and dependencies to contribute to a repository are installed?
+  - GitHub Codespaces
+- Which roles in an organization can view and manage security alerts for private repositories?
+  - Organization owners and Security managers
+- Under which GitHub pricing plan can you create an unlimited number of public repositories?
+  - All of them
+- Which advanced search operator combination would you use to find public repositories with more than 100 stars that mention 'docker' in their name?
+  - `is:public name:docker stars:100`
+- Which GitHub Project layout would best serve as a Kanban board?
+  - Board layout
+- Which of these files can customize your GitHub profile?
+  - profile is not customizable through files but through the account settings
+- If a GitHub Discussion is converted into an Issue and the issue is closed or referred to using its corresponding # number, will the discussion be modified?
+  - Yes
+- What is a GitHub Pro plan?
+  - GitHub Pro is a paid plan for personal accounts that offers additional features in addition to the free plan
+- How can you link a pull request to an issue? (Choose two.)
+  - By using a keyword in the pull request description and referencing the issue number
+  - Manually from either the pull requests or the issue view
+- How can you link a pull request to an issue? (Choose two.)
+  - By using a keyword in the pull request description and referencing the issue number
+  - Manually from either the pull request or the issue view
+- Which of these statements about pinned items on your GitHub profile is true?
+  - You can pin up to six repositories or gists on your profile for quick access
+- Which of these statements about GitHub Enterprise deployment options are true? (Select two.)
+  - GitHub Enterprise Server is a self-hosted platform that runs on the company's infrastructure
+  - GitHub Enterprise Cloud is a cloud hosted platform that runs on the company's cloud infrastructure
+- Which of these layouts are available in GitHub Projects?
+  - Roadmap layout
+  - Table layout
+  - Board layout
+- Which of these statements about the differences of issues and discussions is true?
+  - GitHub Discussions are for conversational that need to be transparent and accessible but do not need to be tracked on a project board and are not related to code, unlike GitHub Issues
+- Which of these is NOT a role in a GitHub Organization?
+  - Organization architect
+- In GitHub a proposal to merge a set of changes from one branch into another branch is called a:
+  - Pull Request
+- Which of these statements regarding GitHub Codespaces lifecycle are true? (Choose three.)
+  - You can disconnect and reconnect to an active Codespace without affecting its running processes
+  - If you create another Codespace on a branch which already had a Codespace running on it, the original Codespace will be deleted
+  - You can stop and restart a Codespace without losing the changes that you make to your project
+- What are GitHub teams?
+  - It is a group of GitHub users from the same organization
+- What are the effects of you following a user on GitHub?
+  - You will get notifications on your personal dashboard about their public activity
+- Which of these best describes git?
+  - Git is a distributed version control system
+- Which of these is a capability of a Security Manager with respect to GitHub Actions in an organization?
+  - They can configure which actions are allowed or blocked across the organization
+- What are some actions you can do in regards to Repository Templates? (Choose two.)
+  - Create a reposiroty template from an existing repository
+  - Delete all repositories that do not use a repository template provided by your organization
+- If there are multiple Readme.md files in a GitHub repository, what is the priority order to show them?
+  - Root directory, `.docs` directory, `.github` directory
+- What are the different levels of GitHub organizational hierarchy? (Choose three.)
+  - Team level
+  - Organizational level
+  - Enterprise level
+- What is the minimum permission a user must have to directly push commits to a repository owned by an organization?
+  - Push commits
+- Which of these definitions best describes open source software?
+  - It's software with source code that anyone can inspect, modify, and enhance
+- What is a pull request template?
+  - Pull request template is a file that defines the default pull request structure that project contributors will automatically see when they open a pull request
+- Which statement best describes the difference between cloning a repository and forking a repository?
+  - Forking creates a copy under your GitHub account, while cloning creates a local copy on your computer without linking ownership to your account
+- Which search query finds all open issues labeled test that mention 'fix' in their body text?
+  - `is:issue is:open label:test "fix"`
+- How can you customize the environment that is run in GitHub Codespaces?
+  - By creating a `.devcontainer/devcontainer.json` configuration file
+- What are the different GitHub pricing plans for organization accounts? (Select three.)
+  - Enterprise
+  - Team
+  - Free
+- Can you change a gist from public to secret after creating it?
+  - No
+- How does the synchronization between GitHub projects, issues and pull requests work?
+  - Updates to the issues and pull requests will be automatically reflected in GitHub Projects. This integration works both ways, so that when you change information about a pull request or issue in your project, the pull request or issue reflects that information
+- Which of the following is true about GitHub wikis?
+  - Wikis in public repositories are accessible to anyone, while those in private repositories are only accessible to repository collaborators
+- Which of the following Git commands allow you to create a new branch and start working on it in one line? (Select two.)
+  - git switch -c `<new_branch_name>`
+  - git checkout -b `<new_branch_name>`
+- Which tool helps you keep the repository dependencies up to date?
+  - Dependabot
+- Where can you find publicly available GitHub Actions?
+  - GitHub Marketplace
+- If you stop your GitHub Codespace environment can you come back to the changes later if you haven't committed them?
+  - Yes, that's the default behavior when stopping and then starting a GitHub Codespace
+- What happens when you choose to close a Project?
+  - The content is retained and you have the ability to reopen it later
+- Which statement best describes a major difference between new GitHub Projects and GitHub Projects Classic?
+  - The new GitHub Projects provide a flexible spreadsheet-like interface, custom fields, and two-way issue synchronization that were not available in Projects Classic.
+- Which information can be found in the Pulse section in the Insights tab of a repository? (Choose four)
+  - List of unresolved conversations
+  - Summary of repository activity
+  - Amount of code line additions and deletions
+  - Amount of forks of the repo
+  - Pull requests open/merged ratio
+- How can you assign a person to an issue or pull request?
+  - By using the Assignees field in the sidebar
+
+
+## References
+
+- [GitHub Foundations Practice Test](https://ghcertified.com/practice_tests/foundations/)
