@@ -20,7 +20,8 @@
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "@babel/runtime": ">=7.26.10"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.9.2",
